@@ -54,7 +54,8 @@ func main() {
 			// ファイルとして存在するか確認
 			if _, err := os.Stat(input); err == nil {
 				// ファイルを読み込む
-				b64, err := os.ReadFile(input)
+				var b64 []byte
+				b64, err = os.ReadFile(input)
 				if err != nil {
 					return err
 				}
