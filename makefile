@@ -7,7 +7,7 @@ TARGET = passwordcrypt
 SRC = ./cmd/passwordcrypt/main.go
 
 # バージョン番号
-VERSION = 1.0.0
+VERSION = 0.1.0-alpha
 GIT_COMMIT = $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
 BUILD_TIME = $(shell date -u +"%Y-%m-%dT%H:%M:%SZ")
 

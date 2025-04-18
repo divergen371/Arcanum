@@ -51,3 +51,6 @@ bin/
 
 # Specstory
 .specstory/
+
+# Requirement definition
+.requirement_definition/
