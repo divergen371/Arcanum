@@ -20,7 +20,7 @@ func TestEncryptDecrypt(t *testing.T) {
 	encryptedFile := "test_encrypted.txt"
 	decryptedFile := "test_decrypted.txt"
 
-	err := os.WriteFile(inputFile, []byte(plaintext), 0600)
+	err := os.WriteFile(inputFile, []byte(plaintext), 0o600)
 	if err != nil {
 		t.Fatalf("Failed to create test file: %v", err)
 	}
