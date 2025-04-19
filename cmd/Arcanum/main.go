@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/divergen371/passwordcrypt/internal/crypto"
+	"github.com/divergen371/Arcanum/internal/crypto"
 	"github.com/spf13/cobra"
 )
 

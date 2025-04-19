@@ -1,6 +1,6 @@
-# PasswordCrypt
+# Arcanum
 
-PasswordCryptは、ファイルや文字列を安全に暗号化・復号化するためのシンプルなコマンドラインツールです。AES-CBCアルゴリズムを使用して、機密情報を保護します。
+Arcanumは、ファイルや文字列を安全に暗号化・復号化するためのシンプルなコマンドラインツールです。AES-CBCアルゴリズムを使用して、機密情報を保護します。
 
 ## 機能
 
@@ -19,8 +19,8 @@ PasswordCryptは、ファイルや文字列を安全に暗号化・復号化す�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/divergen371/passwordcrypt.git
-cd passwordcrypt
+git clone https://github.com/divergen371/Arcanum.git
+cd Arcanum
 
 # 開発用ビルド
 make build

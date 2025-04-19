@@ -1,4 +1,4 @@
-module github.com/divergen371/passwordcrypt
+module github.com/divergen371/Arcanum
 
 go 1.24.0
 
